@@ -1,0 +1,161 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'arial';
+}
+
+html, body {
+  width: 100%;
+  height: 100%;
+}
+#page1{
+    height: 100%;
+    width: 100%;
+    background-color: #EFF0EB;
+    position: relative;
+}
+#nav{
+    height: 70px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0 60px;
+    position: relative;
+}
+#nav-part1{
+    width: 60%;
+    /* background-color: yellow; */
+    display: flex;
+    left: 50%;
+    transform: translateX(-50%);
+    gap: 40px;
+    position: absolute;
+}
+#nav-part2{
+    position: absolute;
+    right: 60px;
+    display: flex;
+    align-items: center;
+    margin-left: auto;
+    gap: 16px;
+}
+#nav-part2 button{
+    color: #65b206;
+    font-weight: 500;
+    background: none;
+    border: none;
+    outline: none;
+    cursor: pointer;
+}
+#nav-part2 button:nth-child(2){
+    padding: 6px 20px;
+    border-radius: 50px;
+    font-weight: 500;
+    border: 2px solid #6BBB0C;
+    color: #6BBB0C;
+    border-radius: 50px;
+    font-size: 15px;
+    margin: 0 10px;
+}
+#content{
+    padding-top: 80px;
+    padding-left: 80px;
+    font-size: 50px;
+}
+.highlight{
+    color: #64B40A;
+}
+#content2{
+    font-size: 15px;
+    padding-left: 80px;
+    padding-top: 30px;
+}
+#circle{
+    width: 450px;
+    height: 450px;
+    border-radius: 50%;
+    border: 1px solid  #64B40A;
+    transform: translateY(-50%);
+    right: 110px;
+    left: 50%;
+    top: 50%;
+    position: absolute;
+    z-index: 1;
+}
+#circle-2{
+    width: 350px;
+    height: 350px;
+    border-radius: 50%;
+    left: 54%;
+    border: 1px solid #64B40A ;
+    transform: translateY(-50%);
+    right: 155px;
+    top: 50%;
+    position: absolute;
+    z-index: 2;
+}
+#circle3{
+    width: 340px;
+    height: 330px;
+    border: none;
+    border-radius: 50%;
+    left: 54.5%;
+    transform: translateY(-50%);
+    top: 50%;
+    position: absolute;
+    box-shadow: inset 0px 0 60px 20px #DCF0A6;
+    z-index: 0;
+}
+#card1{
+    width: 300px;
+    height: 180px;
+    border-radius: 16px;
+     background: linear-gradient(135deg, #6abf1a 0%, #3a8c50 40%, #1a5c5c 100%);
+     box-shadow: 0 20px 60px rgba(0,0,0,0.3);
+    overflow: hidden;
+    padding: 24px;
+    position: absolute;
+    top: 250px;
+    right: 300px;
+    /* box-shadow:  30px 0 60px 20px #DCF0A6; */
+    z-index: 3;
+}
+.card-top{
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+.visa-logo{
+    top: 5px;
+    left: 20px;
+    position:absolute;
+}
+.visa-logo img{
+    width: 60px;
+    height: auto;
+}
+.chip{
+    top: 80px;
+    left: 20px;
+    position: absolute;
+}
+.chip img{
+    width: 50px;
+    height: auto;
+}
+#card2{
+    width: 300px;
+    height: 180px;
+    border-radius: 16px;
+    background: linear-gradient(135deg, #7BC70F, #4db800);
+    overflow: hidden;
+    padding: 24px;
+    position: absolute;
+    top: 150px;
+    right: 140px;
+    /* box-shadow:  30px 0 60px 20px #DCF0A6; */
+    z-index: 4;
+
+}
