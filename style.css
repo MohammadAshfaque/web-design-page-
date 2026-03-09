@@ -72,6 +72,25 @@ html, body {
     padding-left: 80px;
     padding-top: 30px;
 }
+#content3{
+    display: flex;
+    align-items: center;
+    gap: 6px;
+    margin-left: 120px;
+}
+#content3 button{
+    padding-top: 30px;
+    border-radius: 50px;
+    border: 2px solid #B7F12A;
+    color:#B7F12A;
+    -webkit-text-fill-color: black;
+    font-weight: 700;
+    font-size: 15px;
+    padding: 6px 20px;
+    margin: 20px 0px;
+    background-color: #B7F12A ;
+}
+
 #circle{
     width: 450px;
     height: 450px;
